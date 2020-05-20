@@ -4,6 +4,8 @@ require 'rails/all'
 
 Bundler.require(*Rails.groups)
 require "engine_new"
+require "money-rails"
+require "sidekiq"
 
 module Dummy
   class Application < Rails::Application
