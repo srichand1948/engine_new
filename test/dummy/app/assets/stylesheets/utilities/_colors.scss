@@ -1,0 +1,43 @@
+//
+// Color system
+//
+
+// naming colors
+$white: #fff;
+$black: #000;
+$green: #24b341;
+$blue: #177ee6;
+$yellow: #eba61C;
+$red: #f04a30;
+
+// colors
+$primary: #B21E28;
+$primary-light: #D92531;
+$primary-dark: #8C1820;
+
+$secondary: $black;
+$secondary-light: #3D3D3D;
+
+$surface: #FFFFFF;
+$surface-light: #F5F5F5;
+$surface-dark: #EBEBEB;
+$surface-disabled: rgba(0, 0, 0, 0.12);
+$surface-hover: rgba(0, 0, 0, 0.04);
+
+$text-primary: rgba(0, 0, 0, 0.88);
+$text-secondary: rgba(0, 0, 0, 0.64);
+$text-disabled: rgba(0, 0, 0, 0.32);
+$text-placeholder: rgba(0, 0, 0, 0.4);
+
+$text-light-primary: rgba(255, 255, 255, 0.96);
+$text-light-secondary: rgba(255, 255, 255, 0.72);
+$text-light-disabled:rgba(255, 255, 255, 0.48);
+
+$border-light: rgba(0, 0, 0, 0.12);
+$border-meduim: rgba(0, 0, 0, 0.24);
+$border-dark: rgba(0, 0, 0, 0.48);
+
+$danger: $red;
+$warning: $yellow;
+$success: $green;
+$link: $blue;

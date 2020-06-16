@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Kanit';
+  src: asset-url('kanit/Kanit-Light.ttf');
+  src: asset-url('kanit/Kanit-Light.eot');
+  src: asset-url('kanit/Kanit-Light.eot?#iefix') format('embedded-opentype'),
+      asset-url('kanit/Kanit-Light.woff2') format('woff2'),
+      asset-url('kanit/Kanit-Light.woff') format('woff'),
+      asset-url('kanit/Kanit-Light.ttf') format('truetype'),
+      asset-url('kanit/Kanit-Light.svg#Kanit-Light') format('svg');
+  font-weight: normal;
+  unicode-range: U+0E00–U+0E7F;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: asset-url('kanit/Kanit-Regular.eot');
+  src: asset-url('kanit/Kanit-Regular.eot?#iefix') format('embedded-opentype'),
+      asset-url('kanit/Kanit-Regular.woff2') format('woff2'),
+      asset-url('kanit/Kanit-Regular.woff') format('woff'),
+      asset-url('kanit/Kanit-Regular.ttf') format('truetype'),
+      asset-url('kanit/Kanit-Regular.svg#Kanit-Regular') format('svg');
+  font-weight: bold;
+  unicode-range: U+0E00–U+0E7F;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: asset-url('kanit/Kanit-Medium.eot');
+  src: asset-url('kanit/Kanit-Medium.eot?#iefix') format('embedded-opentype'),
+      asset-url('kanit/Kanit-Medium.woff2') format('woff2'),
+      asset-url('kanit/Kanit-Medium.woff') format('woff'),
+      asset-url('kanit/Kanit-Medium.ttf') format('truetype'),
+      asset-url('kanit/Kanit-Medium.svg#Kanit-Medium') format('svg');
+  font-weight: 800;
+  unicode-range: U+0E00–U+0E7F;
+}
