@@ -30,4 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "sqlite3"
   spec.add_development_dependency "sidekiq"
   spec.add_development_dependency "webpacker"
+  spec.add_development_dependency "devise"
 end
