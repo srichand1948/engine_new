@@ -1,7 +1,7 @@
 require 'test_helper'
 
-class EngineNew::Test < ActiveSupport::TestCase
+class Pickpack2::Test < ActiveSupport::TestCase
   test "truth" do
-    assert_kind_of Module, EngineNew
+    assert_kind_of Module, Pickpack2
   end
 end

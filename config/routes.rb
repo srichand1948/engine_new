@@ -1,2 +1,2 @@
-EngineNew::Engine.routes.draw do
+Pickpack2::Engine.routes.draw do
 end

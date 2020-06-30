@@ -1,6 +1,6 @@
-require "engine_new/engine"
+require "pickpack2/engine"
 require "sass-rails"
 
-module EngineNew
+module Pickpack2
   # Your code goes here...
 end

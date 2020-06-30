@@ -1,4 +1,4 @@
-module EngineNew
+module Pickpack2
   class ApplicationRecord < ActiveRecord::Base
     self.abstract_class = true
   end

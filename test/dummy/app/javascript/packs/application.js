@@ -17,4 +17,4 @@ require('@rails/ujs').start()
 require('turbolinks').start()
 require('jquery')
 
-require('engine_new')
+require('pickpack2')

@@ -1,8 +1,9 @@
 PATH
   remote: .
   specs:
-    engine_new (0.1.0)
+    pickpack2 (0.1.0)
       rails (~> 6.0.3)
+      sass-rails (~> 5.0.4)
 
 GEM
   remote: https://rubygems.org/
@@ -74,6 +75,7 @@ GEM
       responders
       warden (~> 1.2.3)
     erubi (1.9.0)
+    ffi (1.13.1)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.8.3)
@@ -128,17 +130,31 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.20.3, < 2.0)
     rake (13.0.1)
+    rb-fsevent (0.10.4)
+    rb-inotify (0.10.1)
+      ffi (~> 1.0)
     redis (4.1.4)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+    sass-rails (5.0.8)
+      railties (>= 5.2.0)
+      sass (~> 3.1)
+      sprockets (>= 2.8, < 4.0)
+      sprockets-rails (>= 2.0, < 4.0)
+      tilt (>= 1.1, < 3)
     semantic_range (2.3.0)
     sidekiq (6.0.7)
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
       rack-protection (>= 2.0.0)
       redis (>= 4.1.0)
-    sprockets (4.0.2)
+    sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     sprockets-rails (3.2.1)
@@ -148,6 +164,7 @@ GEM
     sqlite3 (1.4.2)
     thor (1.0.1)
     thread_safe (0.3.6)
+    tilt (2.0.10)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
     warden (1.2.8)
@@ -167,7 +184,7 @@ PLATFORMS
 
 DEPENDENCIES
   devise
-  engine_new!
+  pickpack2!
   sidekiq
   sqlite3
   webpacker

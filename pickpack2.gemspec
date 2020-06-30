@@ -1,17 +1,17 @@
 $:.push File.expand_path("lib", __dir__)
 
 # Maintain your gem's version:
-require "engine_new/version"
+require "pickpack2/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
-  spec.name        = "engine_new"
-  spec.version     = EngineNew::VERSION
+  spec.name        = "pickpack2"
+  spec.version     = Pickpack2::VERSION
   spec.authors     = ["Roonglit Chareonsupkul"]
   spec.email       = ["roonglit@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of EngineNew."
-  spec.description = "TODO: Description of EngineNew."
+  spec.homepage    = ""
+  spec.summary     = "Summary of Pickpack2."
+  spec.description = "Description of Pickpack2."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

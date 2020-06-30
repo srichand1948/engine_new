@@ -3,7 +3,7 @@ require_relative 'boot'
 require 'rails/all'
 
 Bundler.require(*Rails.groups)
-require "engine_new"
+require "pickpack2"
 require "sidekiq"
 require "devise"
 

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :accounts
-  mount EngineNew::Engine => "/engine_new"
+  mount Pickpack2::Engine => "/pickpack2"
 
   root to: 'static_pages#welcome'
 end
