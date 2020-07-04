@@ -6,6 +6,7 @@ AllCops:
   TargetRailsVersion: 6.0
   Exclude:
     - 'test/dummy/db/**/*'
+    - 'test/dummy/bin/*'
     - 'bin/*'
     - 'config/puma.rb'
     - 'node_modules/**/*'
