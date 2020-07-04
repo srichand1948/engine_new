@@ -40,8 +40,8 @@ jobs:
         with:
           cmd: install
 
-      - name: Lint Ruby / Rails
-        run: bundle exec rubocop
+      # - name: Lint Ruby / Rails
+      #   run: bundle exec rubocop
 
       - name: Build and run tests
         env:
@@ -56,3 +56,9 @@ jobs:
           bundle install --jobs 4 --retry 3
           bundle exec rails db:prepare
           bundle exec rails test
+
+      - name: Notify Teams
+        uses: toko-bifrost/ms-teams-deploy-card@master
+        with:
+          github-token: ${{ github.token }}
+          webhook-uri: ${{ secrets.MS_TEAMS_WEBHOOK_URI }}
