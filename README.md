@@ -1,5 +1,6 @@
 # EngineNew
 Short description and motivation.
+![](https://github.com/srichand1948/engine_new/workflows/build/badge.svg)
 
 ## Usage
 How to use my plugin.

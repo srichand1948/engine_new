@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: build
 on: push
 jobs:
   test:
@@ -45,16 +45,13 @@ jobs:
 
       - name: Build and run tests
         env:
-          DATABASE_URL: postgres://localhost:5432/test
-          DATABASE_USERNAME: postgres
-          DATABASE_PASSWORD: postgres
           REDIS_URL: redis://localhost:6379/0
           RAILS_ENV: test
         run: |
-          sudo apt-get -yqq install libpq-dev
+          sudo apt-get -yqq install libsqlite3-dev
           gem install bundler
           bundle install --jobs 4 --retry 3
-          bundle exec rails db:prepare
+          bundle exec rails app:db:prepare
           bundle exec rails test
 
       - name: Notify Teams
